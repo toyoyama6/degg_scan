@@ -1,0 +1,40 @@
+
+# Copy masks from calibration c code.  Using
+# masks here is simpler.
+ 
+# Shift register outputs when clocked MSB-first
+Q0 = 0x01
+Q1 = 0x02
+Q2 = 0x04
+Q3 = 0x08
+Q4 = 0x10
+Q5 = 0x20
+Q6 = 0x40
+Q7 = 0x80
+
+# Power enable lines
+CAM_POWER_ENABLE   = Q0
+FLASH_POWER_ENABLE = Q1
+ACR_POWER_ENABLE   = Q2
+
+# Camera enable lines
+CAM1_ENABLE = Q0
+LUM1_ENABLE = Q1
+CAM2_ENABLE = Q2
+LUM2_ENABLE = Q3
+CAM3_ENABLE = Q4
+LUM3_ENABLE = Q5
+
+# Flasher LED shift register
+FLASHER_LED0  = 0x0001
+FLASHER_LED1  = 0x0002
+FLASHER_LED2  = 0x0004
+FLASHER_LED3  = 0x0008
+FLASHER_LED4  = 0x0010
+FLASHER_LED5  = 0x0020
+FLASHER_LED6  = 0x0040
+FLASHER_LED7  = 0x0080
+FLASHER_LED8  = 0x0100
+FLASHER_LED9  = 0x0200
+FLASHER_LED10 = 0x0400
+FLASHER_LED11 = 0x0800

@@ -1,0 +1,6 @@
+token         = ''
+channel       = ''
+shifter_id    = ''
+shifter_idbkp = ''
+expert_id     = ''
+admin_id      = ''
